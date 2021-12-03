@@ -1,10 +1,10 @@
 # HR Database Management App
 
-![Project Image](/screencap.png)
-
 ## Description
 
-A HR management app with a working backend. Stores and edits data using XML. Made using react native and C# in Visual Studio. 
+A HR management app with a working backend. Stores and edits data using XML. Made using react native (front-end) and C# in Visual Studio (backend). 
+
+![Project Image](/screencap.png)
 
 ## Functionality
 The following web service methods are avialable in the backend 
