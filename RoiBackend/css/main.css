@@ -1,0 +1,109 @@
+﻿/*
+    roi red - #941a1d
+    charcoal - #262626
+    grey - #595959
+    white - #ffffff
+
+    secondary 
+    burnt orange - #c64c38
+    light orange - #cb6d4f 
+    mild grey - #3b3b3b
+    light grey - #D9D9D9
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    background-color: #262626;
+}
+
+.site-wrapper{
+    background-color: white; 
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 10px; 
+    max-width: 80%;
+
+}
+
+.site-header {
+    margin: 1em 0 2em;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.header-logo {
+    margin: 0 auto 1em; 
+    text-align: center;
+    max-width: 400px;
+}
+
+.output_area {
+    text-align: center;
+}
+
+.site-footer {
+    margin: 2em 0 1em;
+    border-top: 1px solid #3b3b3b;
+    color: #3b3b3b;
+    text-align:center
+}
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #262626;
+    text-align:center;
+}
+
+.person-table{
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: left;
+    padding: 0.5em 0.8em;
+}
+
+    .person-table th{
+        padding: 0.5em 0.8em;
+    }
+    .person-table td{
+        padding: 0.5em 0.8em;
+    }
+
+    .person-table th {
+        background-color: #cb6d4f;
+        color: white;
+        font-weight: normal;
+    }
+
+    .person-table tbody td {
+        border-bottom: 1px solid #3b3b3b;
+        border-right: 1px dotted #3b3b3b;
+    }
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+.main-nav li a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #D9D9D9;
+    max-width: 30%;
+    background-color: #cb6d4f;
+    color: white;
+    text-decoration: none;
+}

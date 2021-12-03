@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Departments xmlns="http://tempuri.org/ROI">
+	<Department Id="0">
+		<Name>General</Name>
+	</Department>
+	<Department Id="1">
+		<Name>Information Technology</Name>
+	</Department>
+	<Department Id="2">
+		<Name>Accounting</Name>
+	</Department>
+	<Department Id="3">
+		<Name>Marketing</Name>
+	</Department>
+	<Department Id="4">
+		<Name>Human Resources</Name>
+	</Department>
+</Departments>
