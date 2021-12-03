@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ROIFrontend",
+    "slug": "ROIFrontend",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "xyz",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xyz.roifrontend",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.xyz.roifrontend",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
